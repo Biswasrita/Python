@@ -1,0 +1,11 @@
+tuple=(10,11,14,11)#tuples are immutable(unchangeable)
+tuple1=(12,6,-8,'jenny',True)
+print(tuple1[1])
+print(type(tuple))
+#tuple[0]=1
+#print(tuple)#tuples are immutable(unchangeable)
+tuple3=(tuple1,tuple)
+print(tuple3)
+print(tuple3[1])
+print(tuple.count(11))
+print(tuple.index(14))

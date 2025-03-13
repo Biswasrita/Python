@@ -1,0 +1,5 @@
+n=input("Enter email id:")
+l=n.split("@")
+print("College Roll no. and institue name of student:"+ l[0],end=" ")
+l1=l[1].split(".")
+print(l1[0].upper())
